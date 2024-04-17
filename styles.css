@@ -90,6 +90,7 @@ body {
     margin: 5px;
     z-index: 2;
 }
+
 .header__searchbox::placeholder {
     color: var(--cinza);
 }
@@ -108,7 +109,7 @@ body {
     color: #ffffff;
 }
 
-.fa-solid.fa-bars{
+.fa-solid.fa-bars {
     font-size: 25px;
 }
 
@@ -244,7 +245,7 @@ body {
     cursor: pointer;
 }
 
-.footer__container{
+.footer__container {
     display: flex;
     align-items: center;
     height: 14vh;
@@ -253,7 +254,7 @@ body {
     background-color: var(--cinza);
 }
 
-.footer__mid{
+.footer__mid {
     display: flex;
     align-items: center;
     gap: 73px;
@@ -267,39 +268,43 @@ body {
     padding: 0 58px;
 }
 
-.footer__mid p{
+.footer__mid p {
     font-weight: bold;
 }
 
-.footer__last{
+.footer__last {
     display: flex;
     align-items: center;
-    gap:33px;
+    gap: 33px;
     padding: 51px;
-    background: linear-gradient(to left,#575050,var(--cinza));
+    background: linear-gradient(to left, #575050, var(--cinza));
     height: 100%;
     color: var(--bege);
     font-size: 24px;
 }
 
-.footer__last__item__container{
-        display: flex;
-        align-items: center;
-        border: 1px solid var(--bege);
-        padding: 10px;
-        border-radius: 100%;
-        
+.footer__last__item__container {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--bege);
+    padding: 10px;
+    border-radius: 100%;
     transition: 0.2s ease-in-out;
+    color: var(--bege);
 }
 
-.footer__last__item__container:hover{
+.footer__last__item__container:hover {
     background-color: var(--bege);
     color: var(--cinza);
     transition: 0.2s ease;
     cursor: pointer;
 }
 
-.footer img{
+.fa-brands{
+    z-index: 2;
+}
+
+.footer img {
     height: 10vh;
     margin: 6vh;
 }
